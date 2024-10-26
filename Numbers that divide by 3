@@ -7,7 +7,7 @@ public class Homework1_Serova {
         );
         reminder=number%3;
         String txt="You entered ";
-        txt+="number"+(reminder==0? " divides into 3!": "doesn't divide into 3!");
+        txt+="number"+(reminder==0? " divides by 3!": "doesn't divide by 3!");
         showMessageDialog(null,txt);
 
     }
